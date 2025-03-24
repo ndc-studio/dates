@@ -1,0 +1,35 @@
+body {
+    background-color: #818181;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr;
+    text-align: center;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+header {
+    grid-column: 1 / 2;
+    grid-template-rows: 1 / 2;
+    background-color: #fffefe;
+    color: #000000;    
+}
+
+.eight {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #fffefe;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+
